@@ -64,3 +64,35 @@ print(en_listam)
 
 kiIr(en_listam)
 #kiIr2(en_listam)
+
+
+def add(a,b):
+    return a+b
+
+def add(a,b,c):
+    return a+b+c
+
+def add(a,b,c,d):
+    return a+b+c+d
+
+
+#print(add(1,2))
+#print(add(1,2,3))
+print(add(1,2,3,4))
+#print(add(1,2,3,4,5))
+
+
+def add2(*szam):
+    osszeg=0
+    for x in szam:
+        osszeg+=x
+    #print(type(szam))
+    return osszeg
+
+print(add2(1))
+print(add2(1,2))
+print(add2(1,2,3,4,5))
+
+#print(add2("a","b"))
+
+
