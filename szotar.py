@@ -1,0 +1,12 @@
+print("Ismerkedés a szótárakkal.")
+
+
+
+
+
+
+
+
+
+
+
